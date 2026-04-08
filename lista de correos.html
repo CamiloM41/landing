@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PACHINGO</title>
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="Acerca_de.html">Acerca de</a></li>
+                <li><a href="Demo.html">Demo</a></li>
+                <li><a href="Contacto.html">FAQ / Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container"> 
+    
+    <h1 class="titulo_principal">
+        <a href="index.html">PACHINGO</a>
+    </h1>
+
+    <!-- INTRO -->
+    <section class="planimetria">
+        <h2>Lista de correos</h2>
+
+        <p>
+            ¡Suscríbete aquí para recibir actualizaciones gratuitas por correo electrónico!
+        </p>
+
+        <p class="texto-secundario">
+            Nunca usaremos tu correo para otro propósito. Consulta nuestra Política de Privacidad para más información.
+        </p>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="formulario-contenedor">
+
+        <form class="formulario">
+
+            <!-- OPCIONES -->
+            <div class="opciones">
+                <label class="radio">
+                    <input type="radio" name="frecuencia" required>
+                    <strong>Normal</strong>
+                    <span>Solo noticias importantes.</span>
+                </label>
+
+                <label class="radio">
+                    <input type="radio" name="frecuencia">
+                    <strong>Super</strong>
+                    <span>Actualizaciones de todos nuestros juegos.</span>
+                </label>
+
+                <label class="radio">
+                    <input type="radio" name="frecuencia">
+                    <strong>Fan</strong>
+                    <span>Todo + eventos y extras.</span>
+                </label>
+            </div>
+
+            <!-- INPUTS -->
+            <div class="inputs">
+                <input type="text" name="name" placeholder="Nombre (opcional)">
+                <input type="email" name="email" placeholder="email@ejemplo.com (requerido)" required>
+                <input type="text" name="game" placeholder="Videojuego favorito (opcional)">
+            </div>
+
+            <!-- BOTON -->
+            <button type="submit" class="btn-principal">Suscribirse</button>
+
+        </form>
+
+        <p class="texto-secundario">
+            Al suscribirte, aceptas recibir correos de esta lista.
+        </p>
+
+        <a href="#" class="desuscribirse">Desuscribirse</a>
+
+    </section>
+
+</main>
+
+<footer>
+    <small>PACHINGO © Fawnolive Studio</small>
+    <small>
+        Steam y el logotipo de Steam son marcas comerciales y/o marcas registradas de Valve Corporation.
+    </small>
+</footer>
+
+</body>
+</html>

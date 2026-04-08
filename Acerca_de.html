@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>[Nombre juego]</title>
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="header">
+    <div class="header-content">
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="Acerca_de.html">Acerca de</a></li>
+                <li><a href="Demo.html">Demo</a></li>
+                <li><a href="Contacto.html">FAQ / Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container"> 
+    <h1 class="titulo_principal"><a href="index.html">PACHINGO</a></h1> <!--añadir imagenes-->
+
+
+    <section class="planimetria"> 
+    <p>... es un juego arcade para PC y Linux.</p>
+
+    <p>En este juego arcade, no tienes que preocuparte.</p>
+
+    <p>Solo alcanza la puntuacion maxima y ve al siguiente nivel.</p>
+
+    <p>Haz combos con la bola. Pasalo bien. Y ten suerte.</p>
+
+    <p>O bien, ignora todo lo anterior y desata la destrucción en la mesa.</p>
+
+    <img src="imagenes/Pachingo test.png">
+
+    <p>Pero tu camino requerirá determinación.</p>
+
+    <p>Cada nivel sera más dificil que el anterior.</p>
+
+    <p>Se hace hincapié en la diversión y la creatividad del jugador.</p>
+
+    <p>Tiempo de juego promedio: El que quieras.</p>
+
+    <img src="imagenes/proto mapa.png">
+
+    <p>¿De que Trata el juego?.</p>
+
+    <p>Preguntale al amigo de abajo</p>
+
+    <!-- ICONO CON GLOBO -->
+    <div class="chat-container">
+        <img src="imagenes/pachin.png" alt="Pachin" class="chat-icon">
+            <div class="chat-bubble">
+                Prueba el juego y descubrelo.
+            </div>
+    </div>
+    <script>
+        const chatContainer = document.querySelector('.chat-container');
+        chatContainer.addEventListener('click', () => {
+        chatContainer.classList.toggle('active');
+        });
+    </script>
+    </section>
+
+</main>
+
+<footer>
+
+    <small> PACHINGO © Fawnolive Studio</small>
+
+    <small>Steam y el logotipo de Steam son marcas comerciales y/o marcas registradas de Valve Corporation en los EE. UU. y/o en otros países.</small>
+
+
+</footer>
+
+</body>
+
+</html>
