@@ -256,10 +256,10 @@ footer small{
 }
 
 /* TEXTOS SECUNDARIOS */
-.texto-secundario{
-    font-size:14px;
-    opacity:0.7;
-    margin-top:10px;
+.texto-secundario {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000;
 }
 
 .desuscribirse{
